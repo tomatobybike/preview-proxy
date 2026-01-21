@@ -1,0 +1,16 @@
+{
+  "name": "@tomatobybike/preview-proxy",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "preview-proxy": "./bin/preview-proxy.mjs"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "packageManager": "yarn@1.22.22"
+}
